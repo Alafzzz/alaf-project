@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page about-premium">
+      <section class="about-hero reveal">
+        <div class="about-hero-overlay"></div>
+        <div class="about-hero-content">
+          <p class="eyebrow">About Our Platform</p>
+          <h1>About Our Platform</h1>
+          <p class="sub">
+            Kerala College Hub is a professional college information platform that helps students
+            discover institutions, explore programs, and make confident higher-education decisions.
+          </p>
+        </div>
+      </section>
+
+      <section class="about-grid">
+        <article class="about-card reveal">
+          <div class="about-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l8 4v10l-8 4-8-4V7l8-4z" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 10.5l3.5 2 3.5-2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2 class="section-title">Who We Are</h2>
+          <p class="body-text">
+            We are a student-first information platform focused on presenting Kerala college data in
+            a clear, modern, and accessible format.
+          </p>
+        </article>
+
+        <article class="about-card reveal">
+          <div class="about-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 19h16M6 16l3.5-4 3 3 5-6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2 class="section-title">What We Offer</h2>
+          <p class="body-text">
+            Streamlined college listings, academic highlights, fees, and profile views that help
+            students compare options faster.
+          </p>
+        </article>
+
+        <article class="about-card reveal">
+          <div class="about-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-4.5 7-10V6l-7-3-7 3v5c0 5.5 7 10 7 10z" stroke="currentColor" stroke-width="1.7"/><path d="M9.5 12.5l1.8 1.8 3.3-3.6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h2 class="section-title">Our Mission</h2>
+          <p class="body-text">
+            To make college discovery transparent, trustworthy, and easy for every aspiring student
+            in Kerala.
+          </p>
+        </article>
+      </section>
+    </main>
+    <script src="auth.js"></script>
+    <script>
+      (function () {
+        document.documentElement.classList.add("js");
+        const items = document.querySelectorAll(".reveal");
+        if (!items.length || !("IntersectionObserver" in window)) return;
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        items.forEach((el) => observer.observe(el));
+      })();
+    </script>
+  </body>
+</html>
+
+

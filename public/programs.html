@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | Programs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html" class="active">Programs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Programs</p>
+        <h1>Explore Programs by Stream</h1>
+        <p class="sub">Search a stream and open matching colleges with one click.</p>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="glass">
+        <div class="filters-grid">
+          <input
+            id="programSearchInput"
+            class="search-input"
+            placeholder="Search stream name (example: Engineering)"
+          />
+        </div>
+        <div class="action-row">
+          <button id="programClearBtn" class="chip">Clear</button>
+          <p id="programStatus" class="status"></p>
+        </div>
+        <div id="programSummary" class="summary-cards"></div>
+        <div id="programStreamChips" class="district-chips"></div>
+      </section>
+
+      <section id="programGrid" class="explore-grid"></section>
+    </main>
+    <script src="auth.js"></script>
+    <script src="programs.js"></script>
+  </body>
+</html>
+

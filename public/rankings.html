@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | Colleges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html" class="active">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Student Explorer</p>
+        <h1>Search Colleges and Learn Before You Apply</h1>
+        <p class="sub">
+          Find colleges by district, course, type and fees.
+        </p>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="glass ranking-filters">
+        <div class="filter-head">
+          <div>
+          </div>
+          <div class="filter-head-meta">
+            <span id="activeFilterCount" class="chip filter-chip-accent">0 Active</span>
+            <span class="chip">Live Results</span>
+          </div>
+        </div>
+        <div class="filters-grid advanced-filters-grid">
+          <label class="filter-field">
+            <span>Search</span>
+            <input id="searchInput" class="search-input" placeholder="Search college, city or district..." />
+          </label>
+          <label class="filter-field">
+            <span>District</span>
+            <select id="districtFilter" class="control-input">
+              <option value="">All Districts</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>College Type</span>
+            <select id="typeFilter" class="control-input">
+              <option value="">All Types</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Course</span>
+            <select id="courseFilter" class="control-input">
+              <option value="">All Courses</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Admission Mode</span>
+            <select id="admissionFilter" class="control-input">
+              <option value="">All Admission Modes</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span>Sort</span>
+            <select id="sortSelect" class="control-input">
+              <option value="rating_desc">Rating High to Low</option>
+              <option value="fees_asc">Fees Low to High</option>
+              <option value="fees_desc">Fees High to Low</option>
+              <option value="name_asc">Name A to Z</option>
+            </select>
+          </label>
+          <label class="filter-field fee-field">
+            <span>Max Fees (INR / Year)</span>
+            <div class="fee-controls">
+              <input id="maxFeesRange" class="fee-range" type="range" min="0" max="500000" step="5000" value="0" />
+              <input id="maxFeesFilter" class="control-input" type="number" min="0" placeholder="No limit" />
+            </div>
+          </label>
+        </div>
+        <div id="filterPresets" class="filter-presets">
+          <button class="chip preset-btn" type="button" data-preset="top-rated">Top Rated</button>
+          <button class="chip preset-btn" type="button" data-preset="budget">Budget Friendly</button>
+          <button class="chip preset-btn" type="button" data-preset="engineering">Engineering Focus</button>
+          <button class="chip preset-btn" type="button" data-preset="medical">Medical Focus</button>
+        </div>
+        <div class="action-row">
+          <button id="clearBtn" class="chip">Clear Filters</button>
+          <p id="backendStatus" class="status"></p>
+        </div>
+        <p id="activeFiltersInfo" class="body-text filter-info">No active filters.</p>
+        <p id="statsText" class="body-text"></p>
+        <div id="summaryCards" class="summary-cards"></div>
+        <div id="districtChips" class="district-chips"></div>
+      </section>
+
+      <section id="collegeGrid" class="college-grid"></section>
+
+      <section class="pagination-row">
+        <button id="prevBtn" class="chip">Previous</button>
+        <span id="pageInfo" class="body-text"></span>
+        <button id="nextBtn" class="chip">Next</button>
+      </section>
+    </main>
+
+    <script src="auth.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

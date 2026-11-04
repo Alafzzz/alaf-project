@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="login-wrap">
+      <section class="login-card">
+        <p class="eyebrow">Student Access</p>
+        <h1>Create your account</h1>
+        <p class="body-text">Sign up to save reviews and continue exploring colleges.</p>
+        <form id="signupForm" class="login-form">
+          <input id="signupEmail" class="control-input" type="email" placeholder="Email" required />
+          <input id="signupPassword" class="control-input" type="password" placeholder="Password (min 6 chars)" required />
+          <input id="signupConfirmPassword" class="control-input" type="password" placeholder="Confirm Password" required />
+          <button class="btn-primary" type="submit">Sign Up</button>
+        </form>
+        <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+        <p class="auth-switch">Admin? <a href="/admin">Open Admin Portal</a></p>
+        <p id="signupError" class="status warn"></p>
+      </section>
+    </main>
+    <script src="auth.js"></script>
+  </body>
+</html>
+
+

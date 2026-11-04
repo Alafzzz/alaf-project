@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page contact-premium">
+      <section class="contact-hero reveal">
+        <p class="eyebrow">Contact</p>
+        <h1>Get in Touch</h1>
+        <p class="sub">Share feedback, report updates, or reach out for support.</p>
+      </section>
+
+      <section class="contact-layout">
+        <article class="contact-card contact-form-card reveal">
+          <h2 class="section-title">Send a Message</h2>
+          <form id="contactForm" class="contact-form-ui" action="#" method="post">
+            <label for="contactName">Name</label>
+            <input id="contactName" class="control-input" name="name" type="text" placeholder="Enter your name" required />
+
+            <label for="contactEmail">Email</label>
+            <input id="contactEmail" class="control-input" name="email" type="email" placeholder="Enter your email" required />
+
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" class="control-input contact-textarea" name="message" placeholder="Write your message" required></textarea>
+
+            <button class="btn-primary contact-submit" type="submit">Send Message</button>
+            <p id="contactStatus" class="contact-status" aria-live="polite"></p>
+          </form>
+        </article>
+
+        <article class="contact-card contact-info-card reveal">
+          <h2 class="section-title">Contact Information</h2>
+
+          <div class="contact-info-row">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 6.5A2.5 2.5 0 016.5 4h11A2.5 2.5 0 0120 6.5v11a2.5 2.5 0 01-2.5 2.5h-11A2.5 2.5 0 014 17.5v-11z" stroke="currentColor" stroke-width="1.7"/><path d="M5 7l7 5 7-5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="body-text">alaf15123456789@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-info-row">
+            <span class="contact-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M7.2 4h3l1.2 3.2-1.8 1.5a13 13 0 005.1 5.1l1.5-1.8L20 13.2v3a1.8 1.8 0 01-2 1.8A15.8 15.8 0 016 6a1.8 1.8 0 011.2-2z" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <p class="contact-label">Phone</p>
+              <p class="body-text">8714808330</p>
+            </div>
+          </div>
+
+          <div class="map-placeholder">
+            <h3>Location Map</h3>
+            <p class="body-text">Google Maps placeholder for future integration.</p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="auth.js"></script>
+    <script>
+      (function () {
+        document.documentElement.classList.add("js");
+        const items = document.querySelectorAll(".reveal");
+        if (!items.length || !("IntersectionObserver" in window)) return;
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("is-visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        items.forEach((el) => observer.observe(el));
+
+        const form = document.getElementById("contactForm");
+        const status = document.getElementById("contactStatus");
+        if (!form || !status) return;
+
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault();
+          const submitBtn = form.querySelector(".contact-submit");
+          const payload = {
+            name: form.contactName.value.trim(),
+            email: form.contactEmail.value.trim(),
+            message: form.contactMessage.value.trim()
+          };
+
+          status.textContent = "Sending message...";
+          status.className = "contact-status";
+          if (submitBtn) submitBtn.disabled = true;
+
+          try {
+            const response = await fetch("/api/contact/send", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify(payload)
+            });
+            const raw = await response.text();
+            let data = {};
+            try {
+              data = raw ? JSON.parse(raw) : {};
+            } catch (error) {
+              data = { message: "Server returned an unexpected response. Please restart the server and try again." };
+            }
+
+            if (!response.ok) {
+              throw new Error(data.message || "Failed to send message.");
+            }
+
+            status.textContent = data.message || "Message sent successfully.";
+            status.className = "contact-status success";
+            form.reset();
+          } catch (error) {
+            status.textContent = error.message || "Failed to send message.";
+            status.className = "contact-status error";
+          } finally {
+            if (submitBtn) submitBtn.disabled = false;
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
+
+

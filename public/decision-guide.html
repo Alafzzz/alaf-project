@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | Decision Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="decision-guide.html" class="active">Decision Guide</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page decision-page">
+      <section class="hero">
+        <p class="eyebrow">Student Decision Guide</p>
+        <h1>Choose a college strategy that fits your future, not just your marks.</h1>
+        <p class="sub">
+          This section adds value beyond a normal college portal by helping students plan fees,
+          scholarships, admissions, and career direction in one place.
+        </p>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="toolkit-grid">
+        <article class="toolbox-card">
+          <span class="toolbox-tag">01</span>
+          <h3>Fee Planning</h3>
+          <p>Identify budget-friendly options and compare government vs private cost structures.</p>
+        </article>
+        <article class="toolbox-card">
+          <span class="toolbox-tag">02</span>
+          <h3>Scholarship Fit</h3>
+          <p>Check which funding opportunities match your field and family income profile.</p>
+        </article>
+        <article class="toolbox-card">
+          <span class="toolbox-tag">03</span>
+          <h3>Career Direction</h3>
+          <p>Match your interests with streams that lead to better placement or research outcomes.</p>
+        </article>
+      </section>
+
+      <section class="glass decision-panel">
+        <div class="decision-panel-grid">
+          <div>
+            <p class="eyebrow dark">Scholarship & Funding Finder</p>
+            <h2>Find the best support strategy for your profile.</h2>
+            <form id="fundingForm" class="decision-form">
+              <label>
+                <span>Choose your course interest</span>
+                <select id="courseInput" class="control-input">
+                  <option value="Engineering">Engineering</option>
+                  <option value="Medical">Medical</option>
+                  <option value="Arts & Science">Arts & Science</option>
+                  <option value="Management">Management</option>
+                  <option value="Law">Law</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Family income range</span>
+                <select id="incomeInput" class="control-input">
+                  <option value="low">Below ₹2.5 Lakh</option>
+                  <option value="mid">₹2.5 Lakh - ₹8 Lakh</option>
+                  <option value="high">Above ₹8 Lakh</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Preferred district</span>
+                <select id="districtInput" class="control-input">
+                  <option value="Kochi">Kochi</option>
+                  <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+                  <option value="Thrissur">Thrissur</option>
+                  <option value="Kozhikode">Kozhikode</option>
+                  <option value="Kottayam">Kottayam</option>
+                  <option value="Any">Any district</option>
+                </select>
+              </label>
+
+              <button type="submit" class="btn-primary">Generate Advice</button>
+            </form>
+          </div>
+
+          <aside id="fundingResult" class="result-box">
+            <h3>Advice Ready</h3>
+            <p>Choose your inputs to see a tailored financial and academic recommendation.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="roadmap-block">
+        <div class="section-heading">
+          <p class="eyebrow dark">Admission Roadmap</p>
+          <h2>What students should do before applying.</h2>
+        </div>
+
+        <div class="roadmap-grid">
+          <article class="roadmap-item">
+            <span>Step 1</span>
+            <h3>Shortlist by stream</h3>
+            <p>Choose between engineering, medical, arts, management or research depending on aptitude and career goal.</p>
+          </article>
+          <article class="roadmap-item">
+            <span>Step 2</span>
+            <h3>Check affordability</h3>
+            <p>Compare yearly fees, hostel expenses, and scholarship opportunities before final submissions.</p>
+          </article>
+          <article class="roadmap-item">
+            <span>Step 3</span>
+            <h3>Review placements</h3>
+            <p>Look beyond rankings and check internships, average package, and industry connections.</p>
+          </article>
+          <article class="roadmap-item">
+            <span>Step 4</span>
+            <h3>Apply strategically</h3>
+            <p>Prioritize colleges by district, subject strength, and admission route to reduce decision stress.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="feature-matrix glass">
+        <p class="eyebrow dark">Why this project stands out</p>
+        <h2>Features other generic college portals usually miss.</h2>
+        <div class="feature-grid">
+          <article class="feature-item">
+            <h3>Kerala-specific relevance</h3>
+            <p>Designed around Kerala districts, state university systems, and campus realities instead of generic national listings.</p>
+          </article>
+          <article class="feature-item">
+            <h3>Student-first advice</h3>
+            <p>Includes fee planning, scholarships, and career fit guidance that supports actual student decisions.</p>
+          </article>
+          <article class="feature-item">
+            <h3>Project-ready originality</h3>
+            <p>Offers unique features and content suitable for a strong third-year academic project presentation.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="auth.js"></script>
+    <script src="decision-guide.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | College Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html" class="active">Colleges</a>
+        <a href="naac-rankings.html">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page college-details-page">
+      <section class="hero college-hero">
+        <div id="collegeHeroMedia" class="college-hero-media"></div>
+        <div class="college-hero-overlay"></div>
+        <div class="college-hero-content">
+          <p class="eyebrow">College Profile</p>
+          <h1 id="collegeTitle">Loading...</h1>
+          <p id="collegeMeta" class="sub"></p>
+        </div>
+      </section>
+
+      <div class="college-details-layout">
+        <section class="college-main">
+          <article class="glass detail-card">
+            <h2 class="section-title">About</h2>
+            <p id="collegeAbout" class="body-text"></p>
+          </article>
+
+          <article class="glass detail-card">
+            <h2 class="section-title">Courses and Fees</h2>
+            <p id="courseCountText" class="body-text"></p>
+            <div id="collegeCourses"></div>
+          </article>
+
+          <article class="glass detail-card">
+            <h2 class="section-title">Fees Snapshot</h2>
+            <div class="summary-cards detail-summary-cards">
+              <article class="summary-card"><p class="label">Average Fees</p><p id="detailFees" class="value">-</p></article>
+              <article class="summary-card"><p class="label">Rating</p><p id="detailRating" class="value">-</p></article>
+              <article class="summary-card"><p class="label">Average Package</p><p id="detailAvgPkg" class="value">-</p></article>
+            </div>
+          </article>
+
+          <article class="glass detail-card">
+            <h2 class="section-title">Facilities</h2>
+            <div class="requested-list">
+              <span class="requested-item">Modern Classrooms</span>
+              <span class="requested-item">Library Access</span>
+              <span class="requested-item">Labs and Workshops</span>
+              <span class="requested-item">Hostel Support</span>
+              <span class="requested-item">Sports and Clubs</span>
+              <span class="requested-item">Campus Wi-Fi</span>
+            </div>
+          </article>
+
+          <article class="glass detail-card">
+            <h2 class="section-title">How to Join</h2>
+            <div id="admissionModes" class="requested-list"></div>
+            <div id="admissionGuide" class="summary-cards"></div>
+          </article>
+
+          <article class="glass detail-card">
+            <h2 class="section-title">Contact</h2>
+            <p id="collegeContactMeta" class="body-text"></p>
+            <div class="landing-actions detail-actions">
+              <a id="visitWebsiteBtn" class="btn-primary" href="#" target="_blank" rel="noopener noreferrer">Visit Official Website</a>
+              <a href="rankings.html" class="btn-secondary">Back to Explorer</a>
+            </div>
+          </article>
+        </section>
+
+        <aside class="college-sidebar">
+          <section class="glass detail-card sidebar-card">
+            <h3>Quick Info</h3>
+            <div class="quick-info-list">
+              <div class="quick-info-row"><span>Location</span><strong id="quickLocation">-</strong></div>
+              <div class="quick-info-row"><span>Rating</span><strong id="quickRating">-</strong></div>
+              <div class="quick-info-row"><span>Average Fees</span><strong id="quickFees">-</strong></div>
+              <div class="quick-info-row"><span>Avg Package</span><strong id="quickPackage">-</strong></div>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+      <section class="glass detail-card">
+        <h2 class="section-title">Student Reviews</h2>
+        <form id="reviewForm" class="review-form">
+          <select id="reviewRating" class="control-input" required>
+            <option value="">Your Rating</option>
+            <option value="5">5 - Excellent</option>
+            <option value="4">4 - Very Good</option>
+            <option value="3">3 - Good</option>
+            <option value="2">2 - Average</option>
+            <option value="1">1 - Poor</option>
+          </select>
+          <textarea id="reviewText" class="control-input review-textarea" placeholder="Write your review..." required></textarea>
+          <button class="btn-primary" type="submit">Post Review</button>
+        </form>
+        <p id="reviewInfo" class="body-text"></p>
+        <div id="reviewList" class="review-list"></div>
+      </section>
+    </main>
+    <script src="auth.js"></script>
+    <script src="college.js"></script>
+  </body>
+</html>

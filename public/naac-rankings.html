@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerala College Hub | NAAC Rankings</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-nav">
+      <a href="index.html" class="brand">Kerala College Hub</a>
+      <nav>
+        <a href="rankings.html">Colleges</a>
+        <a href="naac-rankings.html" class="active">NAAC Rankings</a>
+        <a href="programs.html">Programs</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Accreditation</p>
+        <h1>NAAC-Based College Rankings</h1>
+        <p class="sub">
+          Ranked by NAAC grade first, then by verified NAAC CGPA. Colleges without verified NAAC
+          data are still ranked after verified entries and marked as Unverified.
+        </p>
+        <div class="hero-glow"></div>
+      </section>
+
+      <section class="glass">
+        <div class="filters-grid">
+          <input id="naacSearchInput" class="search-input" placeholder="Search college..." />
+          <select id="naacDistrictFilter" class="control-input">
+            <option value="">All Districts</option>
+          </select>
+          <select id="naacGradeFilter" class="control-input">
+            <option value="">All NAAC Grades</option>
+            <option value="UNVERIFIED">Unverified</option>
+          </select>
+        </div>
+        <div class="action-row">
+          <button id="naacClearBtn" class="chip">Clear Filters</button>
+          <p id="naacStatus" class="status"></p>
+        </div>
+        <div id="naacSummary" class="summary-cards"></div>
+      </section>
+
+      <section id="naacGrid" class="college-grid"></section>
+    </main>
+
+    <script src="auth.js"></script>
+    <script src="naac-rankings.js"></script>
+  </body>
+</html>
+

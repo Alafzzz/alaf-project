@@ -1,0 +1,4802 @@
+[
+  {
+    "id": "nit-calicut",
+    "name": "National Institute of Technology Calicut",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 1961,
+    "rating": 4.8,
+    "averageFees": 151000,
+    "nirfBand": "NA",
+    "website": "https://www.nitc.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MBA",
+      "MCA"
+    ],
+    "placements": {
+      "highestPackageLPA": 47,
+      "averagePackageLPA": 12.3
+    },
+    "about": "Premier engineering institute with strong placements and research programs."
+  },
+  {
+    "id": "gec-kozhikode",
+    "name": "Government Engineering College, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 1999,
+    "rating": 4.1,
+    "averageFees": 78000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "placements": {
+      "highestPackageLPA": 18,
+      "averagePackageLPA": 5.2
+    },
+    "about": "Government engineering college serving North Kerala with core engineering branches."
+  },
+  {
+    "id": "kmct-eng",
+    "name": "KMCT College of Engineering",
+    "district": "Kozhikode",
+    "city": "Mukkam",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2001,
+    "rating": 3.8,
+    "averageFees": 92000,
+    "nirfBand": "NA",
+    "website": "https://www.kmctce.edu.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MBA"
+    ],
+    "placements": {
+      "highestPackageLPA": 10,
+      "averagePackageLPA": 4.2
+    },
+    "about": "Private engineering campus offering UG and PG technical programs."
+  },
+  {
+    "id": "mace-kothamangalam",
+    "name": "Government Engineering College, Thrissur",
+    "district": "Thrissur",
+    "city": "Thrissur",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 1958,
+    "rating": 4.4,
+    "averageFees": 76000,
+    "nirfBand": "NA",
+    "website": "https://www.gectcr.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "placements": {
+      "highestPackageLPA": 22,
+      "averagePackageLPA": 5.9
+    },
+    "about": "Historic government engineering institution in Kerala."
+  },
+  {
+    "id": "sahrdaya-eng",
+    "name": "Sahrdaya College of Engineering and Technology",
+    "district": "Thrissur",
+    "city": "Kodakara",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2002,
+    "rating": 3.9,
+    "averageFees": 95000,
+    "nirfBand": "NA",
+    "website": "https://www.sahrdaya.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MCA"
+    ],
+    "placements": {
+      "highestPackageLPA": 9,
+      "averagePackageLPA": 4
+    },
+    "about": "Engineering college with focus on employability and skill development."
+  },
+  {
+    "id": "jyothi-eng",
+    "name": "Jyothi Engineering College",
+    "district": "Thrissur",
+    "city": "Cheruthuruthy",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2002,
+    "rating": 3.9,
+    "averageFees": 98000,
+    "nirfBand": "NA",
+    "website": "https://jecc.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MBA"
+    ],
+    "placements": {
+      "highestPackageLPA": 12,
+      "averagePackageLPA": 4.3
+    },
+    "about": "Self-financing engineering institution with multiple technology programs."
+  },
+  {
+    "id": "gptc-palakkad",
+    "name": "NSS College of Engineering, Palakkad",
+    "district": "Palakkad",
+    "city": "Palakkad",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 1960,
+    "rating": 4,
+    "averageFees": 72000,
+    "nirfBand": "NA",
+    "website": "https://www.nssce.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "placements": {
+      "highestPackageLPA": 11,
+      "averagePackageLPA": 4.6
+    },
+    "about": "Established engineering college known for civil and mechanical branches."
+  },
+  {
+    "id": "ait-palakkad",
+    "name": "Ahalia School of Engineering and Technology",
+    "district": "Palakkad",
+    "city": "Palakkad",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2012,
+    "rating": 3.7,
+    "averageFees": 88000,
+    "nirfBand": "NA",
+    "website": "https://www.ahalia.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech"
+    ],
+    "placements": {
+      "highestPackageLPA": 7,
+      "averagePackageLPA": 3.8
+    },
+    "about": "Engineering campus offering industry-oriented technical education."
+  },
+  {
+    "id": "mes-eng-kuttippuram",
+    "name": "MES College of Engineering, Kuttippuram",
+    "district": "Malappuram",
+    "city": "Kuttippuram",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 1994,
+    "rating": 4,
+    "averageFees": 89000,
+    "nirfBand": "NA",
+    "website": "https://mesce.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MCA"
+    ],
+    "placements": {
+      "highestPackageLPA": 15,
+      "averagePackageLPA": 4.8
+    },
+    "about": "Well-known engineering college in Malappuram district."
+  },
+  {
+    "id": "mace-malappuram",
+    "name": "M E A Engineering College",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 85000,
+    "nirfBand": "NA",
+    "website": "https://www.meaec.edu.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MBA"
+    ],
+    "placements": {
+      "highestPackageLPA": 10,
+      "averagePackageLPA": 4.1
+    },
+    "about": "Engineering and management programs with placement support."
+  },
+  {
+    "id": "icet-malappuram",
+    "name": "Ilahia College of Engineering and Technology",
+    "district": "Malappuram",
+    "city": "Muvattupuzha",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2002,
+    "rating": 3.7,
+    "averageFees": 87000,
+    "nirfBand": "NA",
+    "website": "https://www.icet.ac.in",
+    "popularCourses": [
+      "B.Tech",
+      "M.Tech",
+      "MCA"
+    ],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.9
+    },
+    "about": "Technical institution offering engineering and computing courses."
+  },
+  {
+    "id": "gmc-kozhikode",
+    "name": "Government Medical College, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 1957,
+    "rating": 4.5,
+    "averageFees": 93000,
+    "nirfBand": "NA",
+    "website": "https://www.gmckozhikode.org",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS",
+      "BSc Nursing"
+    ],
+    "placements": {
+      "highestPackageLPA": 18,
+      "averagePackageLPA": 7
+    },
+    "about": "Major government medical teaching hospital and college in North Kerala."
+  },
+  {
+    "id": "kmct-medical",
+    "name": "KMCT Medical College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2008,
+    "rating": 3.9,
+    "averageFees": 650000,
+    "nirfBand": "NA",
+    "website": "https://www.kmctmedicalcollege.org",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 12,
+      "averagePackageLPA": 5.5
+    },
+    "about": "Private medical college with clinical training and postgraduate courses."
+  },
+  {
+    "id": "karuna-medical",
+    "name": "Karuna Medical College",
+    "district": "Palakkad",
+    "city": "Vilayodi",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2006,
+    "rating": 3.8,
+    "averageFees": 620000,
+    "nirfBand": "NA",
+    "website": "https://karunamedicalcollege.com",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 10,
+      "averagePackageLPA": 5.1
+    },
+    "about": "Medical college in Palakkad offering UG and PG medical programs."
+  },
+  {
+    "id": "gmc-manjeri",
+    "name": "Government Medical College, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2013,
+    "rating": 4.1,
+    "averageFees": 98000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 14,
+      "averagePackageLPA": 6.2
+    },
+    "about": "Government medical college serving Malappuram district."
+  },
+  {
+    "id": "mims-malappuram",
+    "name": "MES Medical College",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2002,
+    "rating": 4,
+    "averageFees": 640000,
+    "nirfBand": "NA",
+    "website": "https://www.mesams.com",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 13,
+      "averagePackageLPA": 5.8
+    },
+    "about": "Established private medical institution with multispecialty hospital."
+  },
+  {
+    "id": "dmc-wayanad",
+    "name": "DM Wayanad Institute of Medical Sciences",
+    "district": "Wayanad",
+    "city": "Wayanad",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 600000,
+    "nirfBand": "NA",
+    "website": "https://www.dmimsmedicalcollege.com",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 9,
+      "averagePackageLPA": 4.9
+    },
+    "about": "Medical college and teaching hospital in Wayanad district."
+  },
+  {
+    "id": "gmc-thrissur",
+    "name": "Government Medical College, Thrissur",
+    "district": "Thrissur",
+    "city": "Thrissur",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 1981,
+    "rating": 4.3,
+    "averageFees": 110000,
+    "nirfBand": "NA",
+    "website": "https://www.gmctsr.org",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS",
+      "BSc Nursing"
+    ],
+    "placements": {
+      "highestPackageLPA": 16,
+      "averagePackageLPA": 6.8
+    },
+    "about": "Leading medical college in central Kerala."
+  },
+  {
+    "id": "amala-medical",
+    "name": "Amala Institute of Medical Sciences",
+    "district": "Thrissur",
+    "city": "Thrissur",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2002,
+    "rating": 4,
+    "averageFees": 630000,
+    "nirfBand": "NA",
+    "website": "https://amalaims.org",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 12,
+      "averagePackageLPA": 5.7
+    },
+    "about": "Private medical institution with tertiary hospital facilities."
+  },
+  {
+    "id": "jubilee-medical",
+    "name": "Jubilee Mission Medical College",
+    "district": "Thrissur",
+    "city": "Thrissur",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2003,
+    "rating": 4.1,
+    "averageFees": 650000,
+    "nirfBand": "NA",
+    "website": "https://www.jubileemissionmedicalcollege.org",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 13,
+      "averagePackageLPA": 5.9
+    },
+    "about": "Medical college with strong clinical exposure and postgraduate programs."
+  },
+  {
+    "id": "dr-somervell-medical",
+    "name": "Dr. Somervell Memorial CSI Medical College",
+    "district": "Kozhikode",
+    "city": "Karakonam",
+    "university": "University of Calicut",
+    "category": "Medical",
+    "type": "Medical College",
+    "established": 2002,
+    "rating": 3.9,
+    "averageFees": 620000,
+    "nirfBand": "NA",
+    "website": "https://www.smcsimch.ac.in",
+    "popularCourses": [
+      "MBBS",
+      "MD",
+      "MS"
+    ],
+    "placements": {
+      "highestPackageLPA": 10,
+      "averagePackageLPA": 5.2
+    },
+    "about": "Private medical college focused on academic and clinical training."
+  },
+  {
+    "id": "government-arts-and-science-college-meenchanda",
+    "name": "Government Arts & Science College, Meenchanda",
+    "district": "Kozhikode",
+    "city": "Meenchanda",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1964,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BA Malayalam (Honours)",
+      "BA Hindi (Honours)",
+      "BA Arabic & History (Double Major)",
+      "BSc Zoology (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Botany (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom (Finance) Honours",
+      "MCom",
+      "MA Economics",
+      "MA History",
+      "MA English Language & Literature",
+      "MA Hindi Language & Literature",
+      "MA Malayalam with Journalism",
+      "BA Malayalam Language & Literature (Honours)",
+      "BA Hindi Language & Literature (Honours)",
+      "BCom Finance (Honours)",
+      "MA English",
+      "MA Hindi",
+      "MSc Physics",
+      "MSc Statistics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-college-kodenchery",
+    "name": "Government College, Kodenchery",
+    "district": "Kozhikode",
+    "city": "Kodenchery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Economics (Honours)",
+      "BSc Zoology (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Computer Application) Honours",
+      "MCom (Finance)",
+      "MA Economics",
+      "MSc Zoology"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-mokeri",
+    "name": "Government Arts & Science College, Mokeri",
+    "district": "Kozhikode",
+    "city": "Mokeri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1981,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA History (Honours)",
+      "BA Functional English (Honours)",
+      "BBA (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BA Econometrics & Data Management (Honours)",
+      "MCom (Finance)",
+      "MA English Language & Literature",
+      "MSc Mathematics",
+      "MCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-nadapuram",
+    "name": "Government Arts & Science College, Nadapuram",
+    "district": "Kozhikode",
+    "city": "Nadapuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Computer Application) Honours",
+      "MA English Language & Literature",
+      "BCom Computer Application (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "n-m-s-m-government-college-kalpetta",
+    "name": "N.M.S.M Government College, Kalpetta",
+    "district": "Wayanad",
+    "city": "Kalpetta",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA History",
+      "BA Development Economics",
+      "BA Journalism & Mass Communication",
+      "BSc Computer Science",
+      "BSc Chemistry",
+      "BCom Finance",
+      "MA Economics",
+      "MA Journalism & Mass Communication",
+      "MA History",
+      "BA History (Honours)",
+      "BA Development Economics (Honours)",
+      "BA Journalism & Mass Communication (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "st-joseph-s-college-devagiri",
+    "name": "St. Joseph's College, Devagiri",
+    "district": "Kozhikode",
+    "city": "Devagiri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1956,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature",
+      "BA Economics",
+      "BA Political Science",
+      "BA Sociology",
+      "BA History",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BSc Mathematics",
+      "BSc Zoology",
+      "BSc Computer Science",
+      "BCom Finance",
+      "MA English",
+      "MSc Physics",
+      "MCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs.",
+    "naacGrade": "A++",
+    "naacCgpa": 3.65,
+    "naacCycle": "4",
+    "naacYear": 2024,
+    "naacSource": "https://www.devagiricollege.org/home/page/74/Profile"
+  },
+  {
+    "id": "providence-women-s-college",
+    "name": "Providence Women's College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1952,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA",
+      "BSc",
+      "BCom",
+      "MA",
+      "MSc"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs.",
+    "naacGrade": "A++",
+    "naacCgpa": 3.65,
+    "naacCycle": "4",
+    "naacYear": 2024,
+    "naacSource": "https://www.providencecollegecalicut.ac.in/naac-accreditation/"
+  },
+  {
+    "id": "n-s-s-college-manjeri",
+    "name": "N.S.S. College, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1965,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English",
+      "BA Economics",
+      "BA History",
+      "BSc Mathematics",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BSc Zoology",
+      "BCom (Co-operation)",
+      "MA English",
+      "MSc Mathematics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sreekrishnapuram-vt-bhattathiripad-college",
+    "name": "Sreekrishnapuram VT Bhattathiripad College",
+    "district": "Palakkad",
+    "city": "Sreekrishnapuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BSc Mathematics",
+      "BA Economics",
+      "BA History",
+      "BA Sanskrit",
+      "BCom",
+      "BBA",
+      "MSc Computer Science",
+      "MCom"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "a-c-kunhimon-haji-memorial-ica-college",
+    "name": "A.C. Kunhimon Haji Memorial ICA College",
+    "district": "Thrissur",
+    "city": "Thrissur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Arabic & Islamic History (Double Major)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "BSc Food Technology (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSc Electronics (Honours)",
+      "BA English Language and Literature (Honours)",
+      "BA Arabic and Islamic History (Double Major)",
+      "BCom Honours (Co-operation)",
+      "BCom Honours (Computer App)",
+      "BCom Honours (Finance)",
+      "MA English Language & Literature",
+      "MCom Finance",
+      "MSc Computer Science",
+      "MSc Electronics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-pathirippala",
+    "name": "Government Arts & Science College, Pathirippala",
+    "district": "Palakkad",
+    "city": "Pathirippala",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Malayalam Language & Literature (Honours)",
+      "BCom (Finance) Honours",
+      "BBA (Finance) Honours",
+      "MCom with Taxation"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-thavanur",
+    "name": "Government Arts & Science College, Thavanur",
+    "district": "Malappuram",
+    "city": "Thavanur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Sociology (Honours)",
+      "BCom (Co-operation) Honours",
+      "Integrated MA Politics & International Relations",
+      "BA Malayalam (Honours)",
+      "BCom (Honours - Finance)",
+      "BSc Psychology (Honours)",
+      "BSc Computer Science (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-thrithala",
+    "name": "Government Arts & Science College, Thrithala",
+    "district": "Palakkad",
+    "city": "Thrithala",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BSc Mathematics (Honours)",
+      "BCom (Finance) Honours",
+      "MSc Mathematics with Data Science",
+      "BA Economics (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "iss-arts-and-science-college-ponniankurissy",
+    "name": "ISS Arts and Science College, Ponniankurissy",
+    "district": "Malappuram",
+    "city": "Ponniankurissy",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Co-operation) Honours",
+      "BCom (Computer Application) Honours",
+      "BCom (Finance) Honours",
+      "MCom (Finance)",
+      "MA English Language & Literature"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "nss-arts-and-science-college-kappoor",
+    "name": "NSS Arts & Science College, Kappoor",
+    "district": "Palakkad",
+    "city": "Kappoor",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BSc Botany (Honours)",
+      "BCom (Finance) Honours"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "awwa-arts-and-science-college-kodancherry",
+    "name": "AWWA Arts & Science College, Kodancherry",
+    "district": "Kozhikode",
+    "city": "Kodancherry",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1980,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BCom (Finance) Honours",
+      "BBA (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "dayapuram-arts-and-science-college-for-women-kozhikode",
+    "name": "Dayapuram Arts & Science College for Women, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Sociology (Honours)",
+      "BA Functional English (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Computer Science (Honours)",
+      "BCom (Co-operation) Honours"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "jdt-islam-college-of-arts-and-science-velimadukunnu",
+    "name": "JDT Islam College of Arts & Science, Velimadukunnu",
+    "district": "Kozhikode",
+    "city": "Velimadukunnu",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Arabic",
+      "BA English",
+      "BA Functional English",
+      "BA History",
+      "BSc Psychology",
+      "BSc Computer Science",
+      "BCom (Computer Application)",
+      "BCom (Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-balussery",
+    "name": "Government Arts & Science College, Balussery",
+    "district": "Kozhikode",
+    "city": "Balussery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCA (Honours)",
+      "BCom (Finance)",
+      "BA History (Honours)",
+      "BSc Zoology (Honours)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "m-e-s-arts-and-science-college-chathamangalam",
+    "name": "M.E.S. Arts & Science College, Chathamangalam",
+    "district": "Kozhikode",
+    "city": "Chathamangalam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English",
+      "BA Economics",
+      "BA History",
+      "BA Sociology",
+      "BSc Mathematics",
+      "BSc Physics",
+      "BSc Zoology",
+      "BSc Computer Science",
+      "BCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "alphonsa-arts-and-science-college",
+    "name": "Alphonsa Arts and Science College",
+    "district": "Wayanad",
+    "city": "Sulthan Bathery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Economics with Foreign Trade (Honours)",
+      "BA Functional English (Honours)",
+      "BA Malayalam Language & Literature (Honours)",
+      "Bachelor of Travel & Tourism Management (Honours)",
+      "BCA (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom (Honours - Co-operation)",
+      "BCom (Honours - Computer Application)",
+      "BCom (Honours - Finance)",
+      "BBA (Honours - Finance)",
+      "BSW (Bachelor of Social Work)",
+      "MA English Language & Literature",
+      "MA Malayalam with Journalism",
+      "MCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "assabah-arts-and-science-college",
+    "name": "Assabah Arts & Science College",
+    "district": "Malappuram",
+    "city": "Valayamkulam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "BSc Geology (Honours)",
+      "BSc Food Technology (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSc Computer Science (Honours)",
+      "BCom (Honours - Co-operation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "co-operative-arts-and-science-college-kurikkilad-vatakara",
+    "name": "Co-operative Arts and Science College, Kurikkilad, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Journalism & Mass Communication (Honours)",
+      "BBA (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSW (Honours)",
+      "BCom (Honours - Co-operation)",
+      "BA Journalism & Mass Comm (Honours)",
+      "Bachelor of Social Work (BSW Honours)",
+      "BCom Honours (Co-operation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "gems-arts-and-science-college",
+    "name": "GEMS Arts and Science College",
+    "district": "Malappuram",
+    "city": "Ramapuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2008,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Sociology (Honours)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "Bachelor of Travel & Tourism Management (Honours)",
+      "BSc Geology (Honours)",
+      "BSc Microbiology (Honours)",
+      "BSc Biotechnology (Honours)",
+      "BSc Computer Science (Honours)",
+      "BA Multimedia (Honours)",
+      "BCom (Honours - Co-operation)",
+      "BCom (Honours - Computer Application)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-college-malappuram",
+    "name": "Government College, Malappuram",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1972,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BA Islamic History (Honours)",
+      "BA Malayalam Language & Literature (Honours)",
+      "BA Urdu Language & Literature (Honours)",
+      "BA Arabic Language & Literature (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom (Honours - Finance)",
+      "MA Economics",
+      "MA History",
+      "MA Islamic History",
+      "MA English Language & Literature",
+      "MSc Physics",
+      "MSc Statistics",
+      "BCom Finance (Honours)",
+      "MCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-for-women-munduparamba",
+    "name": "Government Arts & Science College for Women, Munduparamba",
+    "district": "Malappuram",
+    "city": "Munduparamba",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Islamic History (Honours)",
+      "BSc Botany (Honours)",
+      "BSc Chemistry (Honours)",
+      "MSc Botany"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-kondotty",
+    "name": "Government Arts & Science College, Kondotty",
+    "district": "Malappuram",
+    "city": "Kondotty",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Functional English (Honours)",
+      "BA Urdu Language & Literature (Honours)",
+      "BSc Mathematics (Honours)",
+      "Bachelor of Tourism & Hotel Management (Honours)",
+      "BCom (Honours - Computer Application)",
+      "MA English Language & Literature",
+      "MSc Mathematics",
+      "BSc Psychology (Honours)",
+      "BCom Honours (Computer Application)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "grace-valley-college-of-arts-and-science",
+    "name": "Grace Valley College of Arts & Science",
+    "district": "Palakkad",
+    "city": "Maravattom",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics with Foreign Trade (Honours)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Physics & Chemistry (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "k-m-o-arts-and-science-college",
+    "name": "K.M.O. Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Koduvally",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BBA (Honours)",
+      "BCA (Honours)",
+      "BSc Food Technology (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSW (Honours)",
+      "BCom (Honours - Computer Application)",
+      "MCom with Financial Management",
+      "MA English Language & Literature",
+      "MSc Home Science (Nutrition & Dietetics)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mana-college-of-arts-and-science",
+    "name": "Mana College of Arts & Science",
+    "district": "Palakkad",
+    "city": "Urulikunnam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Mathematics (Honours)",
+      "BCom (Honours - Finance)",
+      "BBA (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mes-arts-and-science-college-nilambur",
+    "name": "MES Arts & Science College, Nilambur",
+    "district": "Malappuram",
+    "city": "Nilambur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Zoology (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Honours - Finance)",
+      "MA English",
+      "MSc Chemistry"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "muslim-association-college-of-arts-and-science",
+    "name": "Muslim Association College of Arts & Science",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Sociology (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSc Psychology (Honours)",
+      "BCom (Honours - Cooperation)",
+      "BBA (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "nss-arts-and-science-college-vatakara",
+    "name": "NSS Arts & Science College, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Mathematics",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BCom (Honours - Finance)",
+      "MA Economics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "safaa-arts-and-science-college",
+    "name": "Safaa Arts & Science College",
+    "district": "Malappuram",
+    "city": "Pookattiri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA Malayalm with Journalism (Honours)",
+      "BSc Computer Science (Honours)",
+      "BSc Psychology (Honours)",
+      "BCom (Honours - Computer Application)",
+      "BCom (Honours - Finance)",
+      "BBA (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-krishna-college-of-arts-and-science",
+    "name": "Sree Krishna College of Arts & Science",
+    "district": "Thiruvananthapuram",
+    "city": "Mannanthala",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA Sociology (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Zoology (Honours)",
+      "BCom (Honours - Finance)",
+      "BCom (Honours - Cooperation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "st-mary-s-college-sulthan-bathery",
+    "name": "St. Mary's College, Sulthan Bathery",
+    "district": "Wayanad",
+    "city": "Sulthan Bathery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA History (Honours)",
+      "BA Economics (Honours)",
+      "BCom (Honours - Co-operation)",
+      "BCom (Honours - Finance)",
+      "BCom (Honours - Computer Application)",
+      "BSc Computer Science (Honours)",
+      "BA Functional English (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "t-m-abdul-khader-memorial-arts-and-science-college",
+    "name": "T.M. Abdul Khader Memorial Arts & Science College",
+    "district": "Malappuram",
+    "city": "Nediyiruppu",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History with Cultural Studies (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Honours - Finance)",
+      "BBA (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vimal-jyothi-college-of-arts-and-science",
+    "name": "Vimal Jyothi College of Arts & Science",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSc Biotechnology (Honours)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "wmo-arts-and-science-college",
+    "name": "WMO Arts & Science College",
+    "district": "Wayanad",
+    "city": "Kalpetta",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSc Computer Science (Honours)",
+      "BCom (Honours - Cooperation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "govt-arts-and-science-college-nilambur",
+    "name": "Govt Arts & Science College, Nilambur",
+    "district": "Malappuram",
+    "city": "Nilambur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2018,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Honours - Finance)",
+      "MA English Language & Literature",
+      "MSc Mathematics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "govt-arts-and-science-college-koduvally",
+    "name": "Govt Arts & Science College, Koduvally",
+    "district": "Kozhikode",
+    "city": "Koduvally",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Functional English (Honours)",
+      "BA Economics (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom (Honours - Computer Application)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "awh-college-of-arts-and-science",
+    "name": "AWH College of Arts & Science",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Sociology (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Computer Science (Honours)",
+      "BCom (Honours - Finance)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "al-irshad-arts-and-science-college-for-women",
+    "name": "Al Irshad Arts & Science College for Women",
+    "district": "Kozhikode",
+    "city": "Thechiyad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA Arabic Language & Literature (Honours)",
+      "BSc Mathematics (Honours)",
+      "BCom (Honours - Finance)",
+      "BSc Zoology (Honours)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "baithul-izza-arts-and-science-college",
+    "name": "Baithul Izza Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Narikkuni",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Physics (Honours)",
+      "BCom (Honours - Co-operation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "a-v-abdurahiman-haji-arts-and-science-college",
+    "name": "A.V. Abdurahiman Haji Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Journalism & Mass Communication (Honours)",
+      "BA History (Honours)",
+      "BA Sociology (Honours)",
+      "BA Functional English (Honours)",
+      "BBA (Honours)",
+      "BSc Psychology (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Chemistry (Honours)",
+      "BSc Computer Science (Honours)",
+      "BCom Honours (Co-operation)",
+      "BCom Honours (Finance)",
+      "MA English Language & Literature",
+      "MSc Chemistry",
+      "MSc Physics"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "aashrayam-college-of-arts-and-science",
+    "name": "Aashrayam College of Arts & Science",
+    "district": "Palakkad",
+    "city": "Palakkad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BSc Psychology (Honours)",
+      "BCom Honours (Co-operation)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "govt-arts-and-science-college-chelakkara",
+    "name": "Govt. Arts & Science College, Chelakkara",
+    "district": "Thrissur",
+    "city": "Chelakkara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BCom Finance (Honours)",
+      "MCom (Cost Management)"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "govt-arts-and-science-college-kozhinjampara",
+    "name": "Govt. Arts & Science College, Kozhinjampara",
+    "district": "Palakkad",
+    "city": "Kozhinjampara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Functional English (Honours)",
+      "BA Tamil with History and Economics (Honours)",
+      "BSc Microbiology (Honours)",
+      "BCom Finance (Honours)",
+      "MSc Microbiology"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "govt-arts-and-science-college-madappally",
+    "name": "Govt. Arts & Science College, Madappally",
+    "district": "Kozhikode",
+    "city": "Madappally",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1958,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA English Language & Literature (Honours)",
+      "BA Economics (Honours)",
+      "BA History (Honours)",
+      "BA Political Science (Honours)",
+      "BSc Zoology (Honours)",
+      "BSc Physics (Honours)",
+      "BSc Mathematics (Honours)",
+      "BSc Botany (Honours)",
+      "BSc Chemistry (Honours)",
+      "BCom Finance (Honours)",
+      "MA Economics",
+      "MA History",
+      "MA Political Science",
+      "MA English",
+      "MSc Chemistry",
+      "MSc Physics",
+      "MSc Zoology",
+      "MCom Finance"
+    ],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "farook-college",
+    "name": "Farook College",
+    "district": "Kozhikode",
+    "city": "Farook College",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1948,
+    "rating": 4.2,
+    "averageFees": 42000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [
+      "BA Arabic & Islamic History",
+      "BA English Language and Literature",
+      "BA Malayalam Language and Literature",
+      "BA Sociology",
+      "BA Multimedia Communication",
+      "BA Economics",
+      "BA Functional English (Self-Financing)",
+      "BA English Language & Literature (Self-Financing)",
+      "BSc Mathematics",
+      "BSc Statistics",
+      "BSc Computer Science",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BSc Botany",
+      "BSc Zoology",
+      "BSc Psychology",
+      "BSc Psychology (Self-Financing)",
+      "BBA (Bachelor of Business Administration)",
+      "BCom (Finance)",
+      "BCom Computer Applications (Self-Financing)",
+      "B.Voc. (Automobile) (Self-Financing)",
+      "B.Voc. (Software Development) (Self-Financing)"
+    ],
+    "placements": {
+      "highestPackageLPA": 7,
+      "averagePackageLPA": 3.2
+    },
+    "about": "Autonomous arts and science college offering UG and PG programmes.",
+    "naacGrade": "A++",
+    "naacCgpa": 3.64,
+    "naacCycle": "4",
+    "naacYear": 2025,
+    "naacSource": "https://farookcollege.ac.in/news-and-events/all/farook-college-achieves-top-a-grade-in-naac-accreditation"
+  },
+  {
+    "id": "s-a-r-b-t-m-government-college-koyilandy",
+    "name": "S.A.R.B.T.M. Government College, Koyilandy",
+    "district": "Kozhikode",
+    "city": "Koyilandy",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1975,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "c-k-g-memorial-government-college-perambra",
+    "name": "C.K.G. Memorial Government College, Perambra",
+    "district": "Kozhikode",
+    "city": "Perambra",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1975,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "zamorins-guruvayurappan-college",
+    "name": "Zamorin's Guruvayurappan College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1877,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs.",
+    "naacGrade": "A",
+    "naacSource": "https://www.zgcollege.ac.in/NIRF"
+  },
+  {
+    "id": "malabar-christian-college",
+    "name": "Malabar Christian College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1909,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs.",
+    "naacGrade": "A",
+    "naacCgpa": 3.3,
+    "naacSource": "https://mccclt.ac.in/"
+  },
+  {
+    "id": "sree-narayana-guru-college",
+    "name": "Sree Narayana Guru College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1968,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mamo-college-mukkam",
+    "name": "MAMO College, Mukkam",
+    "district": "Kozhikode",
+    "city": "Mukkam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1982,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs.",
+    "naacGrade": "A",
+    "naacSource": "https://www.mamocollege.org/accreditations.php?id=197"
+  },
+  {
+    "id": "r-sankar-memorial-sndp-yogam-arts-and-science-college-koyilandy",
+    "name": "R. Sankar Memorial SNDP Yogam Arts & Science College, Koyilandy",
+    "district": "Kozhikode",
+    "city": "Koyilandy",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1995,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "savithri-devi-saboo-memorial-womens-college",
+    "name": "Savithri Devi Saboo Memorial Women's College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1995,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "awh-special-college",
+    "name": "AWH Special College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1995,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mes-college-kozhikode",
+    "name": "MES College, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "met-college",
+    "name": "MET College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-narayana-college-vatakara",
+    "name": "Sree Narayana College, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "little-flower-institute-of-social-sciences-and-health",
+    "name": "Little Flower Institute of Social Sciences & Health",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "m-h-e-s-college-of-science-and-technology",
+    "name": "M.H.E.S. College of Science & Technology",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ilahiya-arts-and-science-college",
+    "name": "Ilahiya Arts and Science College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "national-college-of-arts-and-science",
+    "name": "National College of Arts & Science",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "holy-cross-institute-of-management-and-technology",
+    "name": "Holy Cross Institute of Management & Technology",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2007,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "markaz-college-of-arts-and-science",
+    "name": "Markaz College of Arts & Science",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2008,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "darul-huda-arts-and-science-college-nadapuram",
+    "name": "Darul Huda Arts & Science College, Nadapuram",
+    "district": "Kozhikode",
+    "city": "Nadapuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2009,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "silver-arts-and-science-college-perambra",
+    "name": "Silver Arts & Science College, Perambra",
+    "district": "Kozhikode",
+    "city": "Perambra",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "malabar-college-of-arts-and-science-moodadi",
+    "name": "Malabar College of Arts and Science, Moodadi",
+    "district": "Kozhikode",
+    "city": "Koyilandy",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "st-xaviers-arts-and-science-college",
+    "name": "St. Xavier's Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ideal-college-of-arts-and-science-kuttiadi",
+    "name": "Ideal College of Arts & Science, Kuttiadi",
+    "district": "Kozhikode",
+    "city": "Kuttiadi",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vayalil-kunhali-haji-memorial-orphanage-college-of-arts-and-science-for-women-mukkam",
+    "name": "Vayalil Kunhali Haji Memorial Orphanage College of Arts & Science for Women, Mukkam",
+    "district": "Kozhikode",
+    "city": "Mukkam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mh-arts-and-science-college-kuttiadi",
+    "name": "MH Arts & Science College, Kuttiadi",
+    "district": "Kozhikode",
+    "city": "Kuttiadi",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "csi-christian-muller-womens-college-vatakara",
+    "name": "CSI Christian Muller Women's College, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "muslim-orphanages-college-of-arts-and-science-kuruvattur",
+    "name": "Muslim Orphanages College of Arts and Science, Kuruvattur",
+    "district": "Kozhikode",
+    "city": "Kuruvattur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "kmct-arts-and-science-college",
+    "name": "KMCT Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-gokulam-arts-and-science-college-balussery",
+    "name": "Sree Gokulam Arts & Science College, Balussery",
+    "district": "Kozhikode",
+    "city": "Balussery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-narayana-guru-college-of-advanced-studies-chelannur",
+    "name": "Sree Narayana Guru College of Advanced Studies, Chelannur",
+    "district": "Kozhikode",
+    "city": "Chelannur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "darunnujoom-college-of-arts-and-science-perambra",
+    "name": "Darunnujoom College of Arts & Science, Perambra",
+    "district": "Kozhikode",
+    "city": "Perambra",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "snes-college-of-arts-commerce-and-management-kunnamangalam",
+    "name": "SNES College of Arts, Commerce & Management, Kunnamangalam",
+    "district": "Kozhikode",
+    "city": "Kunnamangalam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "peekay-cics-arts-and-science-college-mathara",
+    "name": "Peekay CICS Arts & Science College, Mathara",
+    "district": "Kozhikode",
+    "city": "Mathara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "si-womens-college-of-arts-and-science-parakkadavu",
+    "name": "SI Women's College of Arts and Science, Parakkadavu",
+    "district": "Kozhikode",
+    "city": "Parakkadavu",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "don-bosco-college-mukkam",
+    "name": "Don Bosco College, Mukkam",
+    "district": "Kozhikode",
+    "city": "Mukkam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "alphonsa-college-thiruvambady",
+    "name": "Alphonsa College, Thiruvambady",
+    "district": "Kozhikode",
+    "city": "Thiruvambady",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "golden-hills-arts-and-science-college",
+    "name": "Golden Hills Arts & Science College",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "gurudeva-college-of-advanced-studies-koyilandy",
+    "name": "Gurudeva College of Advanced Studies, Koyilandy",
+    "district": "Kozhikode",
+    "city": "Koyilandy",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "kunnamangalam-government-arts-and-science-college-chathamangalam",
+    "name": "Kunnamangalam Government Arts and Science College, Chathamangalam",
+    "district": "Kozhikode",
+    "city": "Chathamangalam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "malabar-arts-and-science-college-for-women-nadapuram",
+    "name": "Malabar Arts & Science College for Women, Nadapuram",
+    "district": "Kozhikode",
+    "city": "Nadapuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mahlara-arts-and-science-college-mavoor",
+    "name": "Mahlara Arts & Science College, Mavoor",
+    "district": "Kozhikode",
+    "city": "Mavoor",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "educos-arts-and-science-college-nadupoyil",
+    "name": "Educos Arts & Science College, Nadupoyil",
+    "district": "Kozhikode",
+    "city": "Nadupoyil",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "hi-tech-arts-and-science-college-vattoli",
+    "name": "Hi-Tech Arts & Science College, Vattoli",
+    "district": "Kozhikode",
+    "city": "Vattoli",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "malabar-tms-college-of-management-technology-kunnamangalam",
+    "name": "Malabar TMS College of Management Technology, Kunnamangalam",
+    "district": "Kozhikode",
+    "city": "Kunnamangalam",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "s-m-i-arts-and-science-college-vatakara",
+    "name": "S.M.I Arts & Science College, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "pvs-college-of-arts-and-science-pantheerankavu",
+    "name": "PVS College of Arts & Science, Pantheerankavu",
+    "district": "Kozhikode",
+    "city": "Pantheerankavu",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "kadathanad-arts-and-science-college-vatakara",
+    "name": "Kadathanad Arts & Science College, Vatakara",
+    "district": "Kozhikode",
+    "city": "Vatakara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 6,
+      "averagePackageLPA": 2.8
+    },
+    "about": "Arts and science college offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "college-of-applied-sciences-kozhikode",
+    "name": "College of Applied Sciences, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Science",
+    "type": "Science College",
+    "established": 1993,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "awh-engineering-college-kozhikode",
+    "name": "AWH Engineering College, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2001,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "national-institute-of-electronics-and-information-technology-nielit-calicut",
+    "name": "National Institute of Electronics and Information Technology (NIELIT), Calicut",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 0,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "farook-institute-of-management-kozhikode",
+    "name": "Farook Institute of Management, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "kmct-college-of-engineering-for-women-mukkam",
+    "name": "KMCT College of Engineering for Women, Mukkam",
+    "district": "Kozhikode",
+    "city": "Mukkam",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2009,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "snes-imsar-institute-of-management-studies-and-research-kunnamangalam",
+    "name": "SNES IMSAR (Institute of Management Studies and Research), Kunnamangalam",
+    "district": "Kozhikode",
+    "city": "Kunnamangalam",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2009,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "m-dasan-institute-of-technology-ulliyeri",
+    "name": "M. Dasan Institute of Technology, Ulliyeri",
+    "district": "Kozhikode",
+    "city": "Ulliyeri",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "kmct-college-of-architecture-kallanthode",
+    "name": "KMCT College of Architecture, Kallanthode",
+    "district": "Kozhikode",
+    "city": "Kallanthode",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "kmct-college-of-architecture-manassery",
+    "name": "KMCT College of Architecture, Manassery",
+    "district": "Kozhikode",
+    "city": "Manassery",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "mes-college-of-architecture-kakkodi",
+    "name": "MES College of Architecture, Kakkodi",
+    "district": "Kozhikode",
+    "city": "Kakkodi",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "avani-institute-of-design-kozhikode",
+    "name": "Avani Institute of Design, Kozhikode",
+    "district": "Kozhikode",
+    "city": "Kozhikode",
+    "university": "University of Calicut",
+    "category": "Design",
+    "type": "Design Institute",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "lead-college-of-management",
+    "name": "LEAD College of Management",
+    "district": "Palakkad",
+    "city": "Dhoni",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 55000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "Institute offering professional programs."
+  },
+  {
+    "id": "pookoya-thangal-memorial-government-college-perinthalmanna",
+    "name": "Pookoya Thangal Memorial Government College, Perinthalmanna",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1975,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "thunchan-memorial-government-college-tirur",
+    "name": "Thunchan Memorial Government College, Tirur",
+    "district": "Malappuram",
+    "city": "Tirur",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1980,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "dr-gafoor-memorial-mes-mampad-college",
+    "name": "Dr. Gafoor Memorial MES Mampad College",
+    "district": "Malappuram",
+    "city": "Mampad",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1965,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "pocker-sahib-memorial-orphanage-college-psmo-college",
+    "name": "Pocker Sahib Memorial Orphanage College (PSMO College)",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1968,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs.",
+    "naacGrade": "A+",
+    "naacCgpa": 3.29,
+    "naacCycle": "3",
+    "naacYear": 2022,
+    "naacSource": "https://psmocollege.ac.in/wp-content/uploads/2025/02/PSMO_Handbook_2024-25_All%20pages.pdf"
+  },
+  {
+    "id": "m-e-s-ponnani-college",
+    "name": "M.E.S. Ponnani College",
+    "district": "Malappuram",
+    "city": "Ponnani",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1968,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mar-thoma-college-chungathara",
+    "name": "Mar Thoma College, Chungathara",
+    "district": "Malappuram",
+    "city": "Chungathara",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1981,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "korambayil-ahammed-haji-memorial-unity-womens-college-manjeri",
+    "name": "Korambayil Ahammed Haji Memorial Unity Women's College, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 1981,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mes-keveeyam-college-valanchery",
+    "name": "MES Keveeyam College, Valanchery",
+    "district": "Malappuram",
+    "city": "Valanchery",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 1981,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "emea-college-of-arts-and-science-kumminiparamba",
+    "name": "EMEA College of Arts and Science, Kumminiparamba",
+    "district": "Malappuram",
+    "city": "Kumminiparamba",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 1983,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sullamussalam-science-college-areekode",
+    "name": "Sullamussalam Science College, Areekode",
+    "district": "Malappuram",
+    "city": "Areekode",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1995,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "amal-college-of-advanced-studies-nilambur",
+    "name": "Amal College of Advanced Studies, Nilambur",
+    "district": "Malappuram",
+    "city": "Nilambur",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "majlis-arts-and-science-college-valanchery",
+    "name": "Majlis Arts & Science College, Valanchery",
+    "district": "Malappuram",
+    "city": "Valanchery",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 1995,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sndp-yogam-sathabdi-smaraka-college-perinthalmanna",
+    "name": "SNDP Yogam Sathabdi Smaraka College, Perinthalmanna",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "hm-college-of-science-and-technology-manjeri",
+    "name": "HM College of Science & Technology, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2002,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "markaz-arts-and-science-college-malappuram",
+    "name": "Markaz Arts & Science College, Malappuram",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "k-v-ustad-memorial-darul-hidaya-orphanage-arts-and-science-college-for-women-kololamba",
+    "name": "K.V. Ustad Memorial Darul Hidaya Orphanage Arts & Science College For Women, Kololamba",
+    "district": "Malappuram",
+    "city": "Kololamba",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-vivekananda-padana-kendram-arts-and-science-college-edakkara",
+    "name": "Sree Vivekananda Padana Kendram Arts & Science College, Edakkara",
+    "district": "Malappuram",
+    "city": "Edakkara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "regional-college-of-science-and-humanities-kuzhimanna",
+    "name": "Regional College of Science and Humanities, Kuzhimanna",
+    "district": "Malappuram",
+    "city": "Kuzhimanna",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "najath-college-of-science-and-technology",
+    "name": "Najath College of Science and Technology",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2003,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vedavyasa-institute-of-arts-and-science-vazhayur",
+    "name": "Vedavyasa Institute of Arts & Science, Vazhayur",
+    "district": "Malappuram",
+    "city": "Vazhayur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "kottakkal-farook-arts-and-science-college",
+    "name": "Kottakkal Farook Arts and Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "khidmath-arts-and-science-college",
+    "name": "Khidmath Arts and Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "safi-institute-of-advanced-study-vazhayur",
+    "name": "SAFI Institute of Advanced Study, Vazhayur",
+    "district": "Malappuram",
+    "city": "Vazhayur",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sree-sastha-college",
+    "name": "Sree Sastha College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2008,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "madin-arts-and-science-college-melmuri",
+    "name": "Ma'din Arts and Science College, Melmuri",
+    "district": "Malappuram",
+    "city": "Melmuri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2008,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "safa-college-of-arts-and-science",
+    "name": "Safa College of Arts and Science",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2009,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "hikamiyya-arts-and-science-college-pathiriyal",
+    "name": "Hikamiyya Arts & Science College, Pathiriyal",
+    "district": "Malappuram",
+    "city": "Pathiriyal",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2009,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ideal-college-for-advanced-studies-thavanoor",
+    "name": "Ideal College for Advanced Studies, Thavanoor",
+    "district": "Malappuram",
+    "city": "Thavanur",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "al-jamia-arts-and-science-college",
+    "name": "Al Jamia Arts & Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "st-marys-college-angadippuram",
+    "name": "St. Mary's College, Angadippuram",
+    "district": "Malappuram",
+    "city": "Angadippuram",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "blossom-arts-and-science-college-kondotty",
+    "name": "Blossom Arts & Science College, Kondotty",
+    "district": "Malappuram",
+    "city": "Kondotty",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "noble-womens-college-manjeri",
+    "name": "Noble Women's College, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "pravasi-arts-and-science-college",
+    "name": "Pravasi Arts & Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ikt-memorial-arts-and-science-college",
+    "name": "IKT Memorial Arts & Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "priyadarsini-arts-and-science-college-ernad",
+    "name": "Priyadarsini Arts & Science College, Ernad",
+    "district": "Malappuram",
+    "city": "Ernad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "bafakhy-yatheem-khana-arts-and-science-college-for-women",
+    "name": "Bafakhy Yatheem Khana Arts & Science College for Women",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "cpa-college-of-arts-and-science-puthanathani",
+    "name": "CPA College of Arts and Science, Puthanathani",
+    "district": "Malappuram",
+    "city": "Puthanathani",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mic-arts-and-science-college-valluvambram",
+    "name": "MIC Arts & Science College, Valluvambram",
+    "district": "Malappuram",
+    "city": "Valluvambram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "nasra-college-of-arts-and-science-thirurkad",
+    "name": "Nasra College of Arts & Science, Thirurkad",
+    "district": "Malappuram",
+    "city": "Thirurkad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ch-muhammed-koya-memorial-government-arts-and-science-college-tanur",
+    "name": "CH Muhammed Koya Memorial Government Arts & Science College, Tanur",
+    "district": "Malappuram",
+    "city": "Tanur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sahya-arts-and-science-college-wandoor",
+    "name": "Sahya Arts and Science College, Wandoor",
+    "district": "Malappuram",
+    "city": "Wandoor",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "panakkad-pookoya-thangal-memorial-arts-and-science-college-vengara",
+    "name": "Panakkad Pookoya Thangal Memorial Arts & Science College, Vengara",
+    "district": "Malappuram",
+    "city": "Vengara",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "malabar-college-of-commerce-and-science",
+    "name": "Malabar College of Commerce & Science",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "malabar-college-of-advanced-studies-vengara",
+    "name": "Malabar College of Advanced Studies, Vengara",
+    "district": "Malappuram",
+    "city": "Vengara",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-mankada",
+    "name": "Government Arts & Science College, Mankada",
+    "district": "Malappuram",
+    "city": "Kolathur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "eranad-knowledge-city-college-of-commerce-and-sciences-manjeri",
+    "name": "Eranad Knowledge City College of Commerce and Sciences, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "jm-college-of-arts-and-science-tirur",
+    "name": "JM College of Arts & Science, Tirur",
+    "district": "Malappuram",
+    "city": "Tirur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "moulana-college-of-arts-and-science-and-commerce-tirur",
+    "name": "Moulana College of Arts & Science & Commerce, Tirur",
+    "district": "Malappuram",
+    "city": "Tirur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "kmct-arts-and-science-college-kuttippuram",
+    "name": "KMCT Arts & Science College, Kuttippuram",
+    "district": "Malappuram",
+    "city": "Kuttippuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "fathima-arts-and-science-college-nilambur",
+    "name": "Fathima Arts & Science College, Nilambur",
+    "district": "Malappuram",
+    "city": "Nilambur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mohammed-ali-shihab-thangal-memorial-arts-and-science-college-mstm-perinthalmanna",
+    "name": "Mohammed Ali Shihab Thangal Memorial Arts and Science College (MSTM), Perinthalmanna",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mes-arts-and-science-college-perinthalmanna",
+    "name": "MES Arts and Science College, Perinthalmanna",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "government-arts-and-science-college-post-malappuram",
+    "name": "Government Arts and Science College, Post, Malappuram",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "womens-islamiya-arts-and-science-college-punnappala",
+    "name": "Women's Islamiya Arts and Science College, Punnappala",
+    "district": "Malappuram",
+    "city": "Punnappala",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "m-t-m-college-of-arts-science-and-commerce",
+    "name": "M.T.M College of Arts, Science and Commerce",
+    "district": "Malappuram",
+    "city": "Ponnani",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ambedkar-college-of-arts-and-science-wandoor",
+    "name": "Ambedkar College of Arts and Science, Wandoor",
+    "district": "Malappuram",
+    "city": "Wandoor",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "krs-sree-narayana-college-valanchery",
+    "name": "KR's Sree Narayana College, Valanchery",
+    "district": "Malappuram",
+    "city": "Valanchery",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "panakkad-mohamedali-shihab-thangal-arts-and-science-college-nannambra",
+    "name": "Panakkad Mohamedali Shihab Thangal Arts and Science College, Nannambra",
+    "district": "Malappuram",
+    "city": "Nannambra",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vedavyasa-college-of-arts-and-science-eranad-taluk",
+    "name": "Vedavyasa College of Arts and Science, Eranad Taluk",
+    "district": "Malappuram",
+    "city": "Ernad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "jamia-islamiya-arts-and-science-college-manjeri",
+    "name": "Jamia Islamiya Arts and Science College, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "mao-college-of-arts-and-science-elayur",
+    "name": "MAO College of Arts and Science, Elayur",
+    "district": "Malappuram",
+    "city": "Elayur",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "sayyid-muhammad-ali-shihab-thangal-memorial-arts-and-science-womens-college",
+    "name": "Sayyid Muhammad Ali Shihab Thangal Memorial Arts and Science Women's College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "luminous-arts-and-science-college",
+    "name": "Luminous Arts and Science College",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "ability-arts-and-science-college-for-hearing-impaired-valiyaparamba",
+    "name": "Ability Arts & Science College for Hearing Impaired, Valiyaparamba",
+    "district": "Malappuram",
+    "city": "Valiyaparamba",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "college-of-applied-science-munduparamba",
+    "name": "College of Applied Science, Munduparamba",
+    "district": "Malappuram",
+    "city": "Munduparamba",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 1993,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "college-of-applied-science-edappal",
+    "name": "College of Applied Science, Edappal",
+    "district": "Malappuram",
+    "city": "Edappal",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "college-of-applied-science-vazhakkad",
+    "name": "College of Applied Science, Vazhakkad",
+    "district": "Malappuram",
+    "city": "Vazhakkad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2005,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "college-of-applied-science-ernad-taluk",
+    "name": "College of Applied Science, Ernad Taluk",
+    "district": "Malappuram",
+    "city": "Ernad",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "model-degree-college-parappanangadi",
+    "name": "Model Degree College, Parappanangadi",
+    "district": "Malappuram",
+    "city": "Parappanangadi",
+    "university": "University of Calicut",
+    "category": "Arts & Science",
+    "type": "Arts and Science College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vedavyasa-institute-of-technology-karadparamba",
+    "name": "Vedavyasa Institute of Technology, Karadparamba",
+    "district": "Malappuram",
+    "city": "Karadparamba",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2004,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "devaki-ammas-guruvayurappan-college-of-architecture",
+    "name": "Devaki Amma's Guruvayurappan College of Architecture",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2010,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "alsalama-institute-of-architecture-perinthalmanna",
+    "name": "Alsalama Institute of Architecture, Perinthalmanna",
+    "district": "Malappuram",
+    "city": "Perinthalmanna",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2011,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "cochin-college-of-engineering-and-technology-valanchery",
+    "name": "Cochin College of Engineering and Technology, Valanchery",
+    "district": "Malappuram",
+    "city": "Valanchery",
+    "university": "University of Calicut",
+    "category": "Engineering",
+    "type": "Engineering College",
+    "established": 2012,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "talent-institute-of-management-studies-edappal",
+    "name": "Talent Institute of Management Studies, Edappal",
+    "district": "Malappuram",
+    "city": "Edappal",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2013,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "eranad-knowledge-city-technical-campus-ekc-cherukulam-manjeri",
+    "name": "Eranad Knowledge City Technical Campus (EKC), Cherukulam, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "General",
+    "type": "College",
+    "established": 2000,
+    "rating": 3.8,
+    "averageFees": 38000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "vedavyasa-college-of-architecture-karadparamba",
+    "name": "Vedavyasa College of Architecture, Karadparamba",
+    "district": "Malappuram",
+    "city": "Karadparamba",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "eranad-knowledge-city-college-of-architecture-cherukulam-manjeri",
+    "name": "Eranad Knowledge City College of Architecture, Cherukulam, Manjeri",
+    "district": "Malappuram",
+    "city": "Manjeri",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2014,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "talent-institute-of-architecture",
+    "name": "Talent Institute of Architecture",
+    "district": "Malappuram",
+    "city": "Malappuram",
+    "university": "University of Calicut",
+    "category": "Architecture",
+    "type": "Architecture College",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  },
+  {
+    "id": "monti-international-institute-of-management-studies-angadippuram",
+    "name": "Monti International Institute of Management Studies, Angadippuram",
+    "district": "Malappuram",
+    "city": "Angadippuram",
+    "university": "University of Calicut",
+    "category": "Management",
+    "type": "Management Institute",
+    "established": 2015,
+    "rating": 3.8,
+    "averageFees": 65000,
+    "nirfBand": "NA",
+    "website": "",
+    "popularCourses": [],
+    "placements": {
+      "highestPackageLPA": 8,
+      "averagePackageLPA": 3.5
+    },
+    "about": "College/institute offering undergraduate and postgraduate programs."
+  }
+]
