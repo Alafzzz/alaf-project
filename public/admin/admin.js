@@ -106,7 +106,10 @@ function collegePayloadFromForm(form) {
     popularCourses: parseCourses(fd.get("popularCourses")),
     about: fd.get("about") || "",
     highestPackageLPA: Number(fd.get("highestPackageLPA")) || 0,
-    averagePackageLPA: Number(fd.get("averagePackageLPA")) || 0
+    averagePackageLPA: Number(fd.get("averagePackageLPA")) || 0,
+    naacGrade: fd.get("naacGrade") || "",
+    naacCgpa: Number(fd.get("naacCgpa")) || 0,
+    naacYear: Number(fd.get("naacYear")) || null
   };
 }
 
@@ -121,7 +124,7 @@ function validatePayload(payload) {
 }
 
 async function uploadImage(file) {
-  if (!file) return "";
+  if (!file || !file.size) return "";
   const formData = new FormData();
   formData.append("image", file);
   const response = await api("/api/admin/colleges/upload", {
@@ -150,6 +153,7 @@ function renderStats() {
 
 function cardTemplate(college) {
   const image = college.image ? `<img src="${college.image}" alt="${college.name}" class="college-thumb" />` : "";
+  const naacBadge = college.naacGrade ? `<small class="badge">NAAC ${college.naacGrade}${college.naacCgpa ? ` (${college.naacCgpa})` : ""}</small>` : "";
   return `
     <article class="college-card fade-in">
       ${image}
@@ -161,6 +165,7 @@ function cardTemplate(college) {
         <strong>${Number(college.rating || 0).toFixed(1)}</strong>
       </div>
       <small>Fees: INR ${(Number(college.averageFees) || 0).toLocaleString()} | Courses: ${(college.popularCourses || []).join(", ") || "N/A"}</small>
+      ${naacBadge}
       <div class="college-card-actions">
         <button class="btn btn-secondary" data-action="edit" data-id="${college.id}">Edit</button>
         <button class="btn btn-secondary" data-action="delete" data-id="${college.id}">Delete</button>
@@ -228,8 +233,13 @@ function openEditDialog(college) {
   form.elements.district.value = college.district || "";
   form.elements.city.value = college.city || "";
   form.elements.type.value = college.type || "";
+  if (form.elements.university) form.elements.university.value = college.university || "";
+  if (form.elements.category) form.elements.category.value = college.category || "";
   form.elements.averageFees.value = Number(college.averageFees) || 0;
   form.elements.rating.value = Number(college.rating) || 0;
+  if (form.elements.naacGrade) form.elements.naacGrade.value = college.naacGrade || "";
+  if (form.elements.naacCgpa) form.elements.naacCgpa.value = college.naacCgpa || "";
+  if (form.elements.naacYear) form.elements.naacYear.value = college.naacYear || "";
   form.elements.popularCourses.value = Array.isArray(college.popularCourses) ? college.popularCourses.join(", ") : "";
   form.elements.website.value = college.website || "";
   form.elements.about.value = college.about || "";
@@ -337,8 +347,9 @@ async function handleAddCollege(event) {
     const payload = collegePayloadFromForm(el.addCollegeForm);
     validatePayload(payload);
 
-    const file = el.addCollegeForm.elements.imageFile.files[0];
-    if (file) payload.image = await uploadImage(file);
+    const fileInput = el.addCollegeForm.elements.imageFile;
+    const file = fileInput && fileInput.files ? fileInput.files[0] : null;
+    if (file && file.size) payload.image = await uploadImage(file);
 
     await api("/api/admin/colleges", {
       method: "POST",
@@ -368,8 +379,13 @@ async function handleEditCollege(event) {
       district: form.elements.district.value,
       city: form.elements.city.value,
       type: form.elements.type.value,
+      university: form.elements.university ? form.elements.university.value : "",
+      category: form.elements.category ? form.elements.category.value : "",
       averageFees: Number(form.elements.averageFees.value) || 0,
       rating: Number(form.elements.rating.value) || 0,
+      naacGrade: form.elements.naacGrade ? form.elements.naacGrade.value : "",
+      naacCgpa: form.elements.naacCgpa ? Number(form.elements.naacCgpa.value) || 0 : 0,
+      naacYear: form.elements.naacYear ? Number(form.elements.naacYear.value) || null : null,
       popularCourses: parseCourses(form.elements.popularCourses.value),
       website: form.elements.website.value,
       about: form.elements.about.value
@@ -377,8 +393,9 @@ async function handleEditCollege(event) {
 
     validatePayload(payload);
 
-    const file = form.elements.imageFile.files[0];
-    if (file) payload.image = await uploadImage(file);
+    const fileInput = form.elements.imageFile;
+    const file = fileInput && fileInput.files ? fileInput.files[0] : null;
+    if (file && file.size) payload.image = await uploadImage(file);
 
     await api(`/api/admin/colleges/${encodeURIComponent(id)}`, {
       method: "PUT",
@@ -441,11 +458,7 @@ function bindEvents() {
 
   el.modeButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
-      const isLoginMode = btn.dataset.mode === "login";
-      el.loginFormPanel.classList.toggle("hidden", !isLoginMode);
-      el.signupFormPanel.classList.toggle("hidden", isLoginMode);
-      el.loginError.textContent = "";
-      el.signupError.textContent = "";
+      setAuthMode(btn.dataset.mode);
     });
   });
 
@@ -454,5 +467,4 @@ function bindEvents() {
 
 bindEvents();
 checkSession();
-
 setAuthMode("login");

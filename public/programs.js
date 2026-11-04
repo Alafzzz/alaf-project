@@ -76,7 +76,7 @@ function inferStreams(college) {
 }
 
 async function fetchAllFromApi(base) {
-  const firstRes = await fetch(`${base}/api/colleges?page=1&limit=250`);
+  const firstRes = await fetch(`${base}/api/colleges?page=1&limit=500`);
   if (!firstRes.ok) return null;
   const firstPayload = await firstRes.json();
   if (!firstPayload.data || !Array.isArray(firstPayload.data)) return null;
@@ -84,7 +84,7 @@ async function fetchAllFromApi(base) {
   const totalPages = firstPayload.pagination?.totalPages || 1;
   let all = [...firstPayload.data];
   for (let p = 2; p <= totalPages; p += 1) {
-    const res = await fetch(`${base}/api/colleges?page=${p}&limit=250`);
+    const res = await fetch(`${base}/api/colleges?page=${p}&limit=500`);
     if (!res.ok) continue;
     const payload = await res.json();
     if (Array.isArray(payload.data)) all = all.concat(payload.data);

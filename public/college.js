@@ -11,9 +11,11 @@ function websiteFallback(name) {
   return `https://www.google.com/search?q=${q}`;
 }
 
-function heroImageFallback(college) {
-  const q = encodeURIComponent(`${college?.name || "college campus"} kerala campus`);
-  return `https://source.unsplash.com/1600x900/?${q}`;
+function getHeroBackground(college) {
+  if (college && college.image && typeof college.image === "string" && college.image.trim()) {
+    return `linear-gradient(120deg, rgba(16, 33, 73, 0.45), rgba(8, 16, 36, 0.65)), url('${college.image}')`;
+  }
+  return `linear-gradient(135deg, rgba(14, 28, 64, 0.9) 0%, rgba(30, 58, 138, 0.8) 50%, rgba(15, 23, 42, 0.95) 100%)`;
 }
 
 function inferAdmissionModes(college) {
@@ -95,6 +97,7 @@ function defaultReviewsForCollege(college) {
 }
 
 async function fetchCollegeById(id) {
+  const targetId = String(id || "").trim().toLowerCase();
   for (const base of API_BASE_CANDIDATES) {
     try {
       const res = await fetch(`${base}/api/colleges/${encodeURIComponent(id)}`);
@@ -104,10 +107,21 @@ async function fetchCollegeById(id) {
     }
   }
 
-  const local = await fetch("/data/colleges.json");
-  if (!local.ok) return null;
-  const data = await local.json();
-  return Array.isArray(data) ? data.find((c) => c.id === id) || null : null;
+  try {
+    const local = await fetch("/data/colleges.json");
+    if (!local.ok) return null;
+    const data = await local.json();
+    return Array.isArray(data)
+      ? data.find(
+          (c) =>
+            c.id === id ||
+            String(c.id || "").toLowerCase() === targetId ||
+            String(c.name || "").toLowerCase() === targetId
+        ) || null
+      : null;
+  } catch (error) {
+    return null;
+  }
 }
 
 function renderCollege(c) {
@@ -134,8 +148,8 @@ function renderCollege(c) {
           </thead>
           <tbody>
             ${courses
-    .map((course) => `<tr><td>${course}</td><td>${Number(courseFees[course]).toLocaleString()}</td></tr>`)
-    .join("")}
+              .map((course) => `<tr><td>${course}</td><td>${Number(courseFees[course]).toLocaleString()}</td></tr>`)
+              .join("")}
           </tbody>
         </table>
       </div>
@@ -147,8 +161,7 @@ function renderCollege(c) {
 
   const heroEl = document.getElementById("collegeHeroMedia");
   if (heroEl) {
-    const heroUrl = c.image || heroImageFallback(c);
-    heroEl.style.backgroundImage = `linear-gradient(120deg, rgba(16, 33, 73, 0.38), rgba(8, 16, 36, 0.5)), url('${heroUrl}')`;
+    heroEl.style.backgroundImage = getHeroBackground(c);
   }
 
   const contactMetaEl = document.getElementById("collegeContactMeta");
@@ -253,7 +266,13 @@ function bindReviewForm(collegeId) {
     const text = textEl.value.trim();
     if (!rating || !text) return;
 
-    const user = localStorage.getItem("kch_user") || "Student";
+    let user = localStorage.getItem("kch_user");
+    if (!user) {
+      user = "Student";
+    } else if (user.includes("@")) {
+      user = user.split("@")[0];
+    }
+
     const now = new Date();
     const review = {
       user,

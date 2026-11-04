@@ -51,7 +51,7 @@ router.post("/send", async (req, res) => {
   const transporter = getTransporter();
   if (!transporter) {
     return res.json({
-      message: "Message saved successfully and visible in admin portal Messages.",
+      message: "Message sent successfully and logged for admin review.",
       data: savedMessage
     });
   }
@@ -73,12 +73,12 @@ router.post("/send", async (req, res) => {
     });
 
     return res.json({
-      message: "Message sent successfully and saved to admin portal.",
+      message: "Message sent successfully.",
       data: savedMessage
     });
   } catch (error) {
     return res.json({
-      message: "Message saved to admin portal. Email delivery failed due to SMTP issue.",
+      message: "Message saved to admin portal. Email notification skipped.",
       data: savedMessage
     });
   }

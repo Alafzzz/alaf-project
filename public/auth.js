@@ -1,7 +1,8 @@
 const AUTH_KEY = "kch_auth";
 const USER_KEY = "kch_user";
 const USERS_KEY = "kch_users";
-const ADMIN_USERNAME = "alaf15123456789@gamil.com";
+const ADMIN_USERNAME = "alaf15123456789@gmail.com";
+const ADMIN_TYPO_USERNAME = "alaf15123456789@gamil.com";
 
 function isLoggedIn() {
   return localStorage.getItem(AUTH_KEY) === "1";
@@ -15,25 +16,47 @@ function setLoggedIn(email) {
 function logout() {
   localStorage.removeItem(AUTH_KEY);
   localStorage.removeItem(USER_KEY);
-  window.location.href = "/login.html";
+  window.location.reload();
 }
 
-function injectNavAuth() {
+function updateNavAuth() {
   const nav = document.querySelector(".site-nav nav");
   if (!nav) return;
 
-  const name = localStorage.getItem(USER_KEY) || "Student";
-  const nameNode = document.createElement("span");
-  nameNode.className = "auth-name";
-  nameNode.textContent = name;
+  // Remove existing auth dynamic elements if any
+  nav.querySelectorAll(".auth-element").forEach((node) => node.remove());
 
-  const logoutBtn = document.createElement("button");
-  logoutBtn.className = "chip";
-  logoutBtn.textContent = "Logout";
-  logoutBtn.addEventListener("click", logout);
+  if (isLoggedIn()) {
+    const user = localStorage.getItem(USER_KEY) || "Student";
+    const displayName = user.includes("@") ? user.split("@")[0] : user;
 
-  nav.appendChild(nameNode);
-  nav.appendChild(logoutBtn);
+    const nameNode = document.createElement("span");
+    nameNode.className = "auth-name auth-element";
+    nameNode.textContent = displayName;
+    nameNode.title = user;
+
+    const logoutBtn = document.createElement("button");
+    logoutBtn.className = "chip auth-element";
+    logoutBtn.textContent = "Logout";
+    logoutBtn.style.cursor = "pointer";
+    logoutBtn.addEventListener("click", logout);
+
+    nav.appendChild(nameNode);
+    nav.appendChild(logoutBtn);
+  } else {
+    const loginLink = document.createElement("a");
+    loginLink.className = "auth-element";
+    loginLink.href = "login.html";
+    loginLink.textContent = "Sign In";
+
+    const signupLink = document.createElement("a");
+    signupLink.className = "chip auth-element";
+    signupLink.href = "signup.html";
+    signupLink.textContent = "Sign Up";
+
+    nav.appendChild(loginLink);
+    nav.appendChild(signupLink);
+  }
 }
 
 function getUsers() {
@@ -53,7 +76,7 @@ function setUsers(users) {
 
 function registerUser(email, password) {
   const users = getUsers();
-  const exists = users.some((u) => String(u.email).toLowerCase() === email.toLowerCase());
+  const exists = users.some((u) => String(u.email || "").toLowerCase() === email.toLowerCase());
   if (exists) return { ok: false, message: "Email already registered. Please login." };
   users.push({ email, password });
   setUsers(users);
@@ -62,7 +85,7 @@ function registerUser(email, password) {
 
 function validateLogin(email, password) {
   const users = getUsers();
-  const found = users.find((u) => String(u.email).toLowerCase() === email.toLowerCase());
+  const found = users.find((u) => String(u.email || "").toLowerCase() === email.toLowerCase());
   if (!found) return { ok: false, message: "Account not found. Please sign up first." };
   if (found.password !== password) return { ok: false, message: "Wrong password." };
   return { ok: true };
@@ -70,7 +93,7 @@ function validateLogin(email, password) {
 
 function handleLoginPage() {
   if (isLoggedIn()) {
-    const next = new URLSearchParams(window.location.search).get("next") || "/index.html";
+    const next = new URLSearchParams(window.location.search).get("next") || "index.html";
     window.location.href = next;
     return;
   }
@@ -86,29 +109,30 @@ function handleLoginPage() {
     const email = emailEl.value.trim();
     const password = passwordEl.value.trim();
     if (!email || !password) {
-      errorEl.textContent = "Enter email and password.";
+      if (errorEl) errorEl.textContent = "Enter email and password.";
       return;
     }
 
-    if (email.toLowerCase() === ADMIN_USERNAME.toLowerCase()) {
-      window.location.href = "/admin-login";
+    const emailLower = email.toLowerCase();
+    if (emailLower === ADMIN_USERNAME.toLowerCase() || emailLower === ADMIN_TYPO_USERNAME.toLowerCase()) {
+      window.location.href = "/admin";
       return;
     }
 
     const result = validateLogin(email, password);
     if (!result.ok) {
-      errorEl.textContent = result.message;
+      if (errorEl) errorEl.textContent = result.message;
       return;
     }
     setLoggedIn(email);
-    const next = new URLSearchParams(window.location.search).get("next") || "/index.html";
+    const next = new URLSearchParams(window.location.search).get("next") || "index.html";
     window.location.href = next;
   });
 }
 
 function handleSignupPage() {
   if (isLoggedIn()) {
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
     return;
   }
 
@@ -126,32 +150,33 @@ function handleSignupPage() {
     const confirm = confirmEl.value.trim();
 
     if (!email || !password || !confirm) {
-      errorEl.textContent = "Fill all fields.";
+      if (errorEl) errorEl.textContent = "Fill all fields.";
       return;
     }
     if (password.length < 6) {
-      errorEl.textContent = "Password must be at least 6 characters.";
+      if (errorEl) errorEl.textContent = "Password must be at least 6 characters.";
       return;
     }
     if (password !== confirm) {
-      errorEl.textContent = "Passwords do not match.";
+      if (errorEl) errorEl.textContent = "Passwords do not match.";
       return;
     }
 
     const result = registerUser(email, password);
     if (!result.ok) {
-      errorEl.textContent = result.message;
+      if (errorEl) errorEl.textContent = result.message;
       return;
     }
     setLoggedIn(email);
-    window.location.href = "/index.html";
+    window.location.href = "index.html";
   });
 }
 
-function protectPage() {
+function initAuth() {
   const path = window.location.pathname.toLowerCase();
-  const isLogin = path.endsWith("/login.html") || path === "/login.html";
-  const isSignup = path.endsWith("/signup.html") || path === "/signup.html";
+  const isLogin = path.endsWith("/login.html") || path.endsWith("/login") || path === "/login.html" || path === "/login";
+  const isSignup = path.endsWith("/signup.html") || path.endsWith("/signup") || path === "/signup.html" || path === "/signup";
+
   if (isLogin) {
     handleLoginPage();
     return;
@@ -161,12 +186,11 @@ function protectPage() {
     return;
   }
 
-  if (!isLoggedIn()) {
-    const next = encodeURIComponent(window.location.pathname + window.location.search);
-    window.location.href = `/login.html?next=${next}`;
-    return;
-  }
-  injectNavAuth();
+  updateNavAuth();
 }
 
-protectPage();
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initAuth);
+} else {
+  initAuth();
+}

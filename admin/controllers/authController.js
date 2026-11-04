@@ -11,6 +11,19 @@ function sanitizeUser(user) {
   };
 }
 
+function normalizeUsername(str) {
+  return String(str || "").trim().toLowerCase();
+}
+
+function usernamesMatch(input, stored) {
+  const a = normalizeUsername(input);
+  const b = normalizeUsername(stored);
+  if (a === b) return true;
+  const aFixed = a.replace("@gamil.com", "@gmail.com");
+  const bFixed = b.replace("@gamil.com", "@gmail.com");
+  return aFixed === bFixed;
+}
+
 async function login(req, res) {
   const username = String(req.body?.username || "").trim();
   const password = String(req.body?.password || "");
@@ -20,7 +33,7 @@ async function login(req, res) {
   }
 
   const admin = getAdminCredentials();
-  const matchesUser = username === admin.username;
+  const matchesUser = usernamesMatch(username, admin.username);
   const matchesPassword = matchesUser ? await bcrypt.compare(password, admin.passwordHash) : false;
 
   if (!matchesUser || !matchesPassword) {

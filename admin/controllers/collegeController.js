@@ -43,7 +43,12 @@ function createCollege(req, res) {
     popularCourses: value.popularCourses || [],
     placements: value.placements || { highestPackageLPA: 0, averagePackageLPA: 0 },
     about: value.about || "",
-    image: value.image || ""
+    image: value.image || "",
+    naacGrade: value.naacGrade || "",
+    naacCgpa: value.naacCgpa || 0,
+    naacCycle: value.naacCycle || "",
+    naacYear: value.naacYear || null,
+    naacSource: value.naacSource || ""
   };
 
   colleges.push(newCollege);

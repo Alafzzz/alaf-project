@@ -31,7 +31,7 @@ function ensureAdminSeed() {
   const existing = readJson(adminPath, {});
   if (existing && existing.username && existing.passwordHash) return existing;
 
-  const username = process.env.ADMIN_USERNAME || "alaf15123456789@gamil.com";
+  const username = process.env.ADMIN_USERNAME || "alaf15123456789@gmail.com";
   const password = process.env.ADMIN_PASSWORD || "Admin@12345";
   const passwordHash = bcrypt.hashSync(password, 10);
   const seeded = {
@@ -46,8 +46,10 @@ function ensureAdminSeed() {
 
 function createAdminAccount(username, password) {
   const existing = readJson(adminPath, null);
+  const normalizedNew = String(username).trim().toLowerCase();
+  const existingUser = String(existing?.username || "").trim().toLowerCase();
 
-  if (existing && existing.username && existing.username.toLowerCase() === String(username).toLowerCase()) {
+  if (existing && existingUser === normalizedNew) {
     throw new Error("This admin username already exists.");
   }
 

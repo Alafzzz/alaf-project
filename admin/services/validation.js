@@ -51,7 +51,7 @@ function validateCollegePayload(payload = {}, options = {}) {
     }
   });
 
-  const textFields = ["university", "category", "nirfBand", "about", "image"];
+  const textFields = ["university", "category", "nirfBand", "about", "image", "naacGrade", "naacCycle", "naacSource"];
   textFields.forEach((field) => {
     if (!partial || payload[field] !== undefined) {
       out[field] = normalizeText(payload[field]);
@@ -80,6 +80,17 @@ function validateCollegePayload(payload = {}, options = {}) {
     const fees = parseNumber(payload.averageFees, 0);
     if (fees < 0) errors.push("averageFees cannot be negative");
     out.averageFees = Math.max(0, fees);
+  }
+
+  if (!partial || payload.naacCgpa !== undefined) {
+    const cgpa = parseNumber(payload.naacCgpa, 0);
+    if (cgpa < 0 || cgpa > 4) errors.push("naacCgpa must be between 0 and 4");
+    out.naacCgpa = Math.max(0, Math.min(4, cgpa));
+  }
+
+  if (!partial || payload.naacYear !== undefined) {
+    const year = parseNumber(payload.naacYear, 0);
+    out.naacYear = year > 1900 ? year : null;
   }
 
   if (!partial || payload.popularCourses !== undefined) {
