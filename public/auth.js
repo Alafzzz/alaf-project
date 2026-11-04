@@ -172,6 +172,29 @@ function handleSignupPage() {
   });
 }
 
+
+function injectBackToTop() {
+  if (document.querySelector(".back-to-top-btn")) return;
+  const btn = document.createElement("button");
+  btn.className = "back-to-top-btn";
+  btn.setAttribute("aria-label", "Scroll back to top");
+  btn.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>';
+
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      btn.classList.add("is-visible");
+    } else {
+      btn.classList.remove("is-visible");
+    }
+  }, { passive: true });
+
+  document.body.appendChild(btn);
+}
+
 function initAuth() {
   const path = window.location.pathname.toLowerCase();
   const isLogin = path.endsWith("/login.html") || path.endsWith("/login") || path === "/login.html" || path === "/login";
@@ -187,6 +210,7 @@ function initAuth() {
   }
 
   updateNavAuth();
+  injectBackToTop();
 }
 
 if (document.readyState === "loading") {

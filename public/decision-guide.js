@@ -88,6 +88,13 @@ function getAdvice(course, income, district) {
   `;
 }
 
+function initDefaultAdvice() {
+  if (fundingResult) {
+    fundingResult.innerHTML = getAdvice("Engineering", "low", "Kochi");
+  }
+}
+initDefaultAdvice();
+
 if (fundingForm) {
   fundingForm.addEventListener("submit", (event) => {
     event.preventDefault();

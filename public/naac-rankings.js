@@ -140,11 +140,15 @@ function cardTemplate(c, rank) {
   const yearText = c.naacYear || "NA";
   const gradeText = c.naacGrade || "Unverified";
   const stars = "★".repeat(Math.max(1, Math.min(5, Math.round(c.rating || 0))));
+  let rankBadgeClass = "naac-rank-badge";
+  if (rank === 1) rankBadgeClass += " rank-gold";
+  else if (rank === 2) rankBadgeClass += " rank-silver";
+  else if (rank === 3) rankBadgeClass += " rank-bronze";
 
   return `
     <article class="college-card college-card-v2">
       <div class="college-card-head">
-        <p class="body-text naac-rank-badge">Rank #${rank}</p>
+        <p class="body-text ${rankBadgeClass}">Rank #${rank}</p>
         <span class="college-rating-badge">${c.rating.toFixed(1)} / 5</span>
       </div>
       <h3>${c.name}</h3>

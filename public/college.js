@@ -242,15 +242,26 @@ function renderReviews(collegeId) {
   ).toFixed(1);
   infoEl.textContent = `${reviews.length} review(s) | Student average: ${avg}/5`;
   listEl.innerHTML = reviews
-    .map(
-      (r) => `
-      <article class="review-card">
-        <p class="review-head"><strong>${r.user || "Student"}</strong> <span>${r.date || ""}</span></p>
-        <p class="review-rating">Rating: ${r.rating}/5</p>
-        <p class="body-text">${r.text}</p>
+    .map((r) => {
+      const initials = String(r.user || "S").trim().slice(0, 2).toUpperCase();
+      const stars = "★".repeat(Math.max(1, Math.min(5, Math.round(Number(r.rating) || 5))));
+      return `
+      <article class="review-card" style="display: grid; gap: 8px;">
+        <div class="review-head" style="display: flex; justify-content: space-between; align-items: center;">
+          <div style="display: flex; align-items: center; gap: 10px;">
+            <span class="review-avatar">${initials}</span>
+            <div>
+              <strong style="color: #0f172a; font-size: 14px;">${r.user || "Student"}</strong>
+              <small style="display: block; color: #64748b; font-size: 11px;">Verified Student Review</small>
+            </div>
+          </div>
+          <span style="font-size: 12px; color: #64748b;">${r.date || ""}</span>
+        </div>
+        <p class="review-rating" style="margin: 0; color: #f59e0b; letter-spacing: 0.05em;">${stars} <span style="color: #0f172a; font-size: 12px; font-weight: 800; margin-left: 4px;">${r.rating}/5</span></p>
+        <p class="body-text" style="margin: 0;">${r.text}</p>
       </article>
-    `
-    )
+    `;
+    })
     .join("");
 }
 
